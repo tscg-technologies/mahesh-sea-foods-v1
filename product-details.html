@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details | Mahesh Sea Foods</title>
+  <meta name="description" content="View detailed seafood specifications, packaging, sizing counts, and enquiry options at Mahesh Sea Foods.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/icons/favicon.svg">
+  <!-- Google Fonts: Outfit, Plus Jakarta Sans, Noto Sans Telugu -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- SITE HEADER / NAVBAR -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <!-- Brand Title: Mahesh Sea Foods -->
+        <a href="index.html" class="brand-logo" aria-label="Mahesh Sea Foods Homepage">
+          <div class="brand-emblem">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">Mahesh Sea Foods</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links: strictly Home, About Us, Products, Gallery, Contact Us -->
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+        </ul>
+
+        <!-- Right Actions -->
+        <div class="nav-actions">
+          <button class="nav-search-btn js-open-search" aria-label="Search seafood products" title="Quick Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+          </button>
+
+          <a href="#" class="btn btn-whatsapp nav-whatsapp-btn js-whatsapp-enquiry" data-message="Hello Mahesh Sea Foods, I would like to enquire about your seafood availability and pricing.">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+            </svg>
+            <span>WhatsApp Enquiry</span>
+          </a>
+
+          <!-- Mobile Toggle Button -->
+          <button class="mobile-nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div class="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <button class="mobile-nav-close" type="button" aria-label="Close mobile menu" title="Close menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18" />
+        <line x1="6" y1="6" x2="18" y2="18" />
+      </svg>
+    </button>
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="products.html" class="mobile-nav-link">Products</a>
+      <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+      <a href="contact.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+    <div class="mobile-nav-cta">
+      <button class="btn btn-outline js-open-search" style="width: 100%;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        Search Products
+      </button>
+      <a href="#" class="btn btn-whatsapp js-whatsapp-enquiry" style="width: 100%;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+        </svg>
+        WhatsApp Enquiry
+      </a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- PAGE HERO & BREADCRUMBS -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="shop.html">Shop</a>
+          <span>/</span>
+          <a href="shop.html" id="breadcrumbCategory">Category</a>
+          <span>/</span>
+          <span class="current" id="breadcrumbProduct">Product Details</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- PRODUCT DETAILS MAIN CONTENT -->
+    <section class="product-details-container">
+      <div class="container">
+        
+        <!-- Successful Product View Grid -->
+        <div class="product-details-grid" id="productDetailsContainer">
+          <!-- Left: Big Media Box -->
+          <div class="details-media-box">
+            <img id="detailImage" src="" alt="" loading="eager">
+          </div>
+
+          <!-- Right: Details, Commercial Specs & CTAs -->
+          <div class="details-content">
+            <div class="details-badge-row">
+              <a href="#" id="detailCategoryTag" class="section-badge">Category</a>
+              <span class="product-specs-pill" style="margin-bottom: 0;">Freshly Selected</span>
+            </div>
+
+            <h1 class="details-title" id="detailTitle">Loading Product...</h1>
+            <p class="details-lead" id="detailShortDesc"></p>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h4 style="margin-bottom: 0.5rem; color: var(--color-primary);">About This Seafood</h4>
+              <p id="detailFullDesc" style="color: var(--color-text); line-height: 1.7;"></p>
+            </div>
+
+            <!-- Commercial Specifications Table -->
+            <div class="specs-table">
+              <div class="spec-row">
+                <span class="spec-label">Sold By</span>
+                <span class="spec-val" id="detailUnit">-</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Available Sizes</span>
+                <span class="spec-val" id="detailSizes">-</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Cutting / Preparation</span>
+                <span class="spec-val" id="detailCuts">-</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Freshness</span>
+                <span class="spec-val" id="detailGrade">-</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Packing</span>
+                <span class="spec-val" id="detailPackaging">-</span>
+              </div>
+            </div>
+
+            <!-- CTAs -->
+            <div class="details-cta-group">
+              <a href="#" id="detailWaBtn" class="btn btn-lg btn-whatsapp">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+                </svg>
+                Enquire for Availability on WhatsApp
+              </a>
+
+              <a href="contact.html" id="detailContactBtn" class="btn btn-lg btn-outline">
+                Submit Commercial Enquiry
+              </a>
+            </div>
+
+            <p style="font-size: 0.82rem; color: var(--color-text-muted);">
+              * Note: We verify species, exact grade counts, and daily dock landings before confirming commercial order dispatch.
+            </p>
+          </div>
+        </div>
+
+        <!-- 404 / Invalid Product State -->
+        <div id="productNotFoundContainer" style="display: none; padding: 4rem 1.5rem; text-align: center; background-color: var(--color-bg-alt); border-radius: var(--radius-xl); border: 1.5px dashed var(--color-border); margin-bottom: 5rem;">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin: 0 auto 1.25rem auto; color: var(--color-coral);">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+          <h2>Seafood Product Not Found</h2>
+          <p style="max-width: 520px; margin: 0.5rem auto 1.5rem auto; color: var(--color-text-muted);">
+            We couldn't locate a product with identifier <span id="missingProductId" style="font-weight: 700; color: var(--color-primary);"></span> in our active catalog. It may have been updated or moved.
+          </p>
+          <div style="display: flex; gap: 1rem; justify-content: center;">
+            <a href="products.html" class="btn btn-primary">
+              Back to Product Catalog
+            </a>
+            <a href="contact.html" class="btn btn-outline">
+              Ask Our Sales Team
+            </a>
+          </div>
+        </div>
+
+        <!-- Related Products Section -->
+        <div style="margin-top: 4rem;">
+          <div class="section-header text-left">
+            <span class="section-badge">Complementary Catches</span>
+            <h2>Related Seafood Selections</h2>
+            <p>Other popular commercial items you may wish to consider for your menu or inventory.</p>
+          </div>
+          <div class="product-grid" id="relatedProductsGrid">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- COMMON FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col footer-about">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 0.5rem;">
+            <div class="brand-emblem">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #FFFFFF;">Mahesh Sea Foods</span>
+            </div>
+          </a>
+          <p style="color: #C5BCB4; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
+            Mahesh Sea Foods provides 100% fresh, chemical-free seafood with friendly service, professional custom cutting, and reliable wholesale and retail supply in Hyderabad.
+          </p>
+          <a href="#" class="btn btn-sm btn-whatsapp js-whatsapp-enquiry" data-message="Hello Mahesh Sea Foods, I would like to get in touch.">
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html" class="footer-nav-link">Home</a></li>
+            <li><a href="about.html" class="footer-nav-link">About Us</a></li>
+            <li><a href="products.html" class="footer-nav-link">Products</a></li>
+            <li><a href="gallery.html" class="footer-nav-link">Gallery</a></li>
+            <li><a href="contact.html" class="footer-nav-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Seafood Categories (Strictly Fishes & Prawns) -->
+        <div class="footer-col">
+          <h4>Wholesale Divisions</h4>
+          <ul class="footer-nav-list">
+            <li><a href="products.html?category=fishes" class="footer-nav-link">Fishes (Marine &amp; Sweetwater Wholesale)</a></li>
+            <li><a href="products.html?category=prawns" class="footer-nav-link">Prawns &amp; Shrimps (Bulk Supply Crates)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Information</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span><strong>Phone / WhatsApp:</strong><br><a href="tel:+917989705005" style="color: var(--color-terracotta); font-weight: 600;">+91 7989705005</a></span>
+            </div>
+            <div class="footer-contact-item">
+              <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>
+                <strong>Store Location:</strong><br>
+                H.No: 2-6-3, Near TX Hospital, Bharath Nagar, Uppal, Medchal-Malkajgiri Dist - 500039.<br>
+                <a href="https://maps.app.goo.gl/DNgCmp9HCjLjaLzu8" target="_blank" rel="noopener noreferrer" style="color: var(--color-terracotta); text-decoration: underline; display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.25rem;">
+                  Open in Google Maps &rarr;
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mahesh Sea Foods. All rights reserved.</p>
+        <div class="footer-legal-links">
+          <a href="about.html">About Us</a>
+          <a href="products.html">All Products</a>
+          <a href="gallery.html">Store Gallery</a>
+          <a href="contact.html">Store Location</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- QUICK SEARCH MODAL -->
+  <div class="search-modal-backdrop" role="dialog" aria-modal="true" aria-label="Search Catalog">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" class="search-modal-input" placeholder="Search by fish name, category, or variety..." aria-label="Search seafood">
+        <button class="search-modal-close" aria-label="Close search modal">&times;</button>
+      </div>
+      <div class="search-modal-results"></div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button class="back-to-top" aria-label="Back to top of page" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <line x1="12" y1="19" x2="12" y2="5"/>
+      <polyline points="5 12 12 5 19 12"/>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/product-details.js"></script>
+</body>
+</html>
