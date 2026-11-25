@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2B48" />
+      <stop offset="100%" stop-color="#13426B" />
+    </linearGradient>
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+    <radialGradient id="glowGrad" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="rgba(20, 184, 166, 0.18)" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="600" fill="url(#gridPattern)" />
+  <circle cx="400" cy="280" r="280" fill="url(#glowGrad)" />
+
+  
+
+  <!-- Abstract Wave Lines -->
+  <path d="M0,450 C200,420 280,510 520,450 C680,408.00000000000006 800,491.99999999999994 800,491.99999999999994" fill="none" stroke="rgba(20, 184, 166, 0.08)" stroke-width="3" />
+  <path d="M0,491.99999999999994 C240,528 400,432 600,504 C720,540 800,480 800,480" fill="none" stroke="rgba(20, 184, 166, 0.08)" stroke-width="2" />
+
+  <!-- Central Illustrated Icon -->
+  
+      <!-- Dried Seafood Icon -->
+      <g transform="translate(400, 275) scale(1.3)" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Sun Rays -->
+        <circle cx="0" cy="-35" r="16" fill="rgba(245, 158, 11, 0.18)" />
+        <line x1="0" y1="-58" x2="0" y2="-54" />
+        <line x1="0" y1="-16" x2="0" y2="-12" />
+        <line x1="-23" y1="-35" x2="-19" y2="-35" />
+        <line x1="19" y1="-35" x2="23" y2="-35" />
+        <line x1="-16" y1="-51" x2="-13" y2="-48" />
+        <line x1="13" y1="-22" x2="16" y2="-19" />
+        <line x1="16" y1="-51" x2="13" y2="-48" />
+        <line x1="-13" y1="-22" x2="-16" y2="-19" />
+        <!-- Dried Fish -->
+        <path d="M-45,25 C-20,10 20,12 45,25 C20,38 -20,40 -45,25 Z" fill="rgba(245, 158, 11, 0.12)" />
+        <path d="M45,25 L65,10 L58,25 L65,40 Z" fill="rgba(245, 158, 11, 0.25)" />
+        <circle cx="-30" cy="22" r="2.5" fill="#F59E0B" />
+        <line x1="-10" y1="18" x2="-10" y2="32" stroke-dasharray="2,2" />
+        <line x1="5" y1="18" x2="5" y2="32" stroke-dasharray="2,2" />
+        <line x1="20" y1="18" x2="20" y2="32" stroke-dasharray="2,2" />
+      </g>
+    
+
+  <!-- Badge & Typography Overlay -->
+  <g transform="translate(400, 520)" text-anchor="middle">
+    <!-- Category Pill -->
+    <rect x="-100" y="-45" width="200" height="26" rx="13" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.18)" stroke-width="1" />
+    <text x="0" y="-28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#14B8A6">AUTHENTIC UMAMI</text>
+
+    <!-- Title -->
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Sun-Dried Anchovies</text>
+
+    <!-- Subtitle / Placeholder Info -->
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="rgba(255, 255, 255, 0.65)">
+      Photo Placeholder • Mahesh Sea Foods
+    </text>
+  </g>
+</svg>

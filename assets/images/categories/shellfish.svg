@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2B48" />
+      <stop offset="100%" stop-color="#13426B" />
+    </linearGradient>
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+    <radialGradient id="glowGrad" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="rgba(20, 184, 166, 0.18)" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="600" fill="url(#gridPattern)" />
+  <circle cx="400" cy="280" r="280" fill="url(#glowGrad)" />
+
+  
+
+  <!-- Abstract Wave Lines -->
+  <path d="M0,450 C200,420 280,510 520,450 C680,408.00000000000006 800,491.99999999999994 800,491.99999999999994" fill="none" stroke="rgba(20, 184, 166, 0.08)" stroke-width="3" />
+  <path d="M0,491.99999999999994 C240,528 400,432 600,504 C720,540 800,480 800,480" fill="none" stroke="rgba(20, 184, 166, 0.08)" stroke-width="2" />
+
+  <!-- Central Illustrated Icon -->
+  
+      <!-- Shellfish Icon -->
+      <g transform="translate(400, 275) scale(1.3)" fill="none" stroke="#14B8A6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M0,45 C-45,35 -55,-15 -25,-35 C-5,-45 5,-45 25,-35 C55,-15 45,35 0,45 Z" fill="rgba(20, 184, 166, 0.12)" />
+        <line x1="0" y1="45" x2="0" y2="-43" />
+        <line x1="0" y1="45" x2="-22" y2="-33" />
+        <line x1="0" y1="45" x2="22" y2="-33" />
+        <line x1="0" y1="45" x2="-40" y2="-15" />
+        <line x1="0" y1="45" x2="40" y2="-15" />
+      </g>
+    
+
+  <!-- Badge & Typography Overlay -->
+  <g transform="translate(400, 520)" text-anchor="middle">
+    <!-- Category Pill -->
+    <rect x="-100" y="-45" width="200" height="26" rx="13" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.18)" stroke-width="1" />
+    <text x="0" y="-28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#14B8A6">BIVALVES</text>
+
+    <!-- Title -->
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Shellfish</text>
+
+    <!-- Subtitle / Placeholder Info -->
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="rgba(255, 255, 255, 0.65)">
+      Photo Placeholder • Mahesh Sea Foods
+    </text>
+  </g>
+</svg>
